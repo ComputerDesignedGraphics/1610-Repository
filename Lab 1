@@ -86,3 +86,33 @@ namespace MyApplication
     }
   }
 }
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double myNum = 459.99D;
+      Console.WriteLine(myNum);
+    }
+  }
+}
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double myNum = 459.99D;
+      Console.WriteLine(myNum);
+    }
+  }
+}
