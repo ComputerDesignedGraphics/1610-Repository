@@ -27,4 +27,47 @@ namespace MyApplication
   }
 }
 
+using System;
 
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 34;
+      myNum = 200;
+      Console.WriteLine(myNum);
+    }
+  }
+}
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 123456;
+      Console.WriteLine(myNum);
+    }
+  }
+}
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      long myNum = 15005400000L;
+      Console.WriteLine(myNum);
+    }
+  }
+}
