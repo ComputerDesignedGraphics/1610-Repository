@@ -71,3 +71,18 @@ namespace MyApplication
     }
   }
 }
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      float myNum = 7.23F;
+      Console.WriteLine(myNum);
+    }
+  }
+}
