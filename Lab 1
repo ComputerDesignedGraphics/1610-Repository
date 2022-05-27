@@ -1,0 +1,30 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "Oranges";
+      Console.WriteLine(name);  
+     }
+  }
+}
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 205;
+      Console.WriteLine(myNum);
+     }
+  }
+}
+
+
