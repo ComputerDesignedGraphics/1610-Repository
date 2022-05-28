@@ -1,1 +1,19 @@
+public class CDG_ClassExample
+{
 
+}
+
+public class ClassWithVariables
+{
+	public int number = 57;
+	public string username = “Heinz”;
+}
+
+public class ClassWithFucntions
+{
+
+	public void RunFunction()
+	{
+		Console.WriteLine(“I Like Steaks”);p
+	}
+}
