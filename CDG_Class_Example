@@ -15,3 +15,14 @@ namespace ClassWithVariables
   }
 }
 
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "I Love Steaks";
+      Console.WriteLine(name);  
+     }
+  }
+}
