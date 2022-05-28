@@ -3,17 +3,15 @@ public class CDG_ClassExample
 
 }
 
-public class ClassWithVariables
+namespace ClassWithVariables
 {
-	public int number = 57;
-	public string username = “Heinz”;
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 57;
+      Console.WriteLine(myNum);
+     }
+  }
 }
 
-public class ClassWithFucntions
-{
-
-	public void RunFunction()
-	{
-		Console.WriteLine(“I Like Steaks”);p
-	}
-}
