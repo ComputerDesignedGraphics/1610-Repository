@@ -22,7 +22,11 @@ namespace MyApplication
     static void Main(string[] args)
     {
       string name = "I Love Steaks";
+      string name2 = "Baked Potato";
       Console.WriteLine(name);  
+      Console.WriteLine(name2);  
      }
   }
 }
+
+
