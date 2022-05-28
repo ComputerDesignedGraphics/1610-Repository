@@ -1,19 +1,4 @@
-public class CDG_ClassExample
-{
-
-}
-
-namespace ClassWithVariables
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      int myNum = 57;
-      Console.WriteLine(myNum);
-     }
-  }
-}
+using System;
 
 namespace MyApplication
 {
@@ -21,12 +6,33 @@ namespace MyApplication
   {
     static void Main(string[] args)
     {
-      string name = "I Love Steaks";
-      string name2 = "Baked Potato";
+      string name = "What Goes on Steaks";
       Console.WriteLine(name);  
+      
+            string name2 = "Heinz";
       Console.WriteLine(name2);  
-     }
+
+      int myNum = 57;
+      myNum = 57;
+      Console.WriteLine(myNum);
+      
+            string name3 = "And a Baked Potatos";
+      Console.WriteLine(name3);
+      
+      double myNum2 = 1.1;
+      Console.WriteLine(myNum2);
+      
+      string name4 = "Your Customer Numbers Are:";
+      Console.WriteLine(name4);
+      
+      
+	 Random rnd = new Random();
+
+     for (int j = 0; j < 2; j++)
+{
+     Console.WriteLine(rnd.Next());
+}
+      
+    }
   }
 }
-
-
