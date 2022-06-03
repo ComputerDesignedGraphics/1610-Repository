@@ -87,3 +87,25 @@ namespace MyApplication
     }
   }
 }
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int time = 54;
+      if (time < 44) 
+      {
+        Console.WriteLine("Good day.");
+      } 
+      else 
+      {
+        Console.WriteLine("Good evening.");
+      }
+    }
+  }
+}
+
