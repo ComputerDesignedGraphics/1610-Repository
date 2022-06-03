@@ -146,3 +146,29 @@ namespace MyApplication
   }
 }
 
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int day = 7;
+      switch (day) 
+      {
+        case 6:
+          Console.WriteLine("Today is Saturday.");
+          break;
+        case 7:
+          Console.WriteLine("Today is Sunday.");
+          break;
+        default:
+          Console.WriteLine("Looking forward to the Weekend.");
+          break;
+      }    
+    }
+  }
+}
+
+// I now see if say, "Clock" was active and counting and every 25 hours puts a 1 in Day, it could change case # and maybe output "Today is #'s"
