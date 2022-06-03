@@ -24,3 +24,21 @@ namespace MyApplication
   }
 }
 
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 760;
+      int y = 310;
+      if (x > y)
+      {
+        Console.WriteLine("x is greater than y");
+      }
+    }
+  }
+}
+
