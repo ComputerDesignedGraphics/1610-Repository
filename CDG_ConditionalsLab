@@ -42,3 +42,48 @@ namespace MyApplication
   }
 }
 
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int rain = 345;
+      if (rain < 43) 
+      {
+        Console.WriteLine("It is Raining");
+      } 
+      else 
+      {
+        Console.WriteLine("We have no Rain");
+      }
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int temp = 70;
+      if (temp < 30) 
+      {
+        Console.WriteLine("A Beautiful Day!");
+      } 
+      else if (temp < 20) 
+      {
+        Console.WriteLine("A Very Cold Day!");
+      } 
+      else 
+      {
+        Console.WriteLine("Unknown Day");
+      }
+    }
+  }
+}
