@@ -1,0 +1,19 @@
+// THE IF STATEMENT
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      if (98 > 23) 
+      {
+        Console.WriteLine("98 is greater than 23");
+      }    
+    }
+  }
+}
+
+
