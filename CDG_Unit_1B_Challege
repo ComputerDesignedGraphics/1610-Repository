@@ -17,3 +17,189 @@ namespace MyApplication
 }
 
 
+   
+using System;
+					
+public class Program
+{
+	public void Main()
+	{
+		Console.WriteLine("C Sharp is Fun");
+}
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      if (20 > 18) 
+      {
+        Console.WriteLine("20 is greater than 18");
+      }    
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 760;
+      int y = 310;
+      if (x > y)
+      {
+        Console.WriteLine("x is greater than y");
+      }
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int rain = 345;
+      if (rain < 43) 
+      {
+        Console.WriteLine("It is Raining");
+      } 
+      else 
+      {
+        Console.WriteLine("We have no Rain");
+      }
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int temp = 70;
+      if (temp < 30) 
+      {
+        Console.WriteLine("A Beautiful Day!");
+      } 
+      else if (temp < 20) 
+      {
+        Console.WriteLine("A Very Cold Day!");
+      } 
+      else 
+      {
+        Console.WriteLine("Unknown Day");
+      }
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int time = 54;
+      if (time < 44) 
+      {
+        Console.WriteLine("Good day.");
+      } 
+      else 
+      {
+        Console.WriteLine("Good evening.");
+      }
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int day = 6;
+      switch (day) 
+      {
+        case 1:
+          Console.WriteLine("Monday");
+          break;
+        case 2:
+          Console.WriteLine("Tuesday");
+          break;
+        case 3:
+          Console.WriteLine("Wednesday");
+          break;
+        case 4:
+          Console.WriteLine("Thursday");
+          break;
+        case 5:
+          Console.WriteLine("Friday");
+          break;
+        case 6:
+          Console.WriteLine("Saturday");
+          break;
+        case 7:
+          Console.WriteLine("Sunday");
+          break;
+      }    
+    }
+  }
+}
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int day = 7;
+      switch (day) 
+      {
+        case 6:
+          Console.WriteLine("Today is Saturday.");
+          break;
+        case 7:
+          Console.WriteLine("Today is Sunday.");
+          break;
+        default:
+          Console.WriteLine("Looking forward to the Weekend.");
+          break;
+      }    
+    }
+  }
+}
+
+//EXERCISE//
+
+int x = 50;
+int y = 10;
+if
+ (x 
+>
+ y) 
+{
+  Console.WriteLine("Hello World");
+}
+
