@@ -1,0 +1,54 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int i = 4;
+      while (i < 15) 
+      {
+        Console.WriteLine(i);
+        i++;
+      }
+    }
+  }
+}
+
+//FOR LOOP//
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      for (int i = 10; i < 50; i++) 
+      {
+        Console.WriteLine(i);
+      }    
+    }
+  }
+}
+
+//EachLOop//
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] cars = {"Pepsi", "Coke", "Sprite", "Dr.Pepper"};
+      foreach (string i in cars) 
+      {
+        Console.WriteLine(i);
+      }   
+    }
+  }
+}
