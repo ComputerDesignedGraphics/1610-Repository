@@ -13,12 +13,12 @@ using UnityEngine;
 
         if (Input.GetKey("d")) //Add force to left & right
         {
-            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0);
+            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0,ForceMode.VelocityChange);
         }
 
         if ( Input.GetKey("a"))  //Add force to left & right
         {   
-            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
+            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
     }
 }
