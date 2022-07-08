@@ -13,11 +13,6 @@ public class PlayerController : MonoBehaviour
 
     public GameObject lazerBolt;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -45,5 +40,11 @@ public class PlayerController : MonoBehaviour
             Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
             
-    }
+       }
+		// if anything hits player - game over or player lives lower
+		private void OnTriggerEnter(Collider other)
+		{
+			Destroy(other.gameObject);
+		}
+
 }
