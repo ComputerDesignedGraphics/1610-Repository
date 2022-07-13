@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
-   
     public float speed = 25;
 
     public float xRange = 30;
@@ -47,5 +46,5 @@ public class PlayerController : MonoBehaviour
 		{
 			Destroy(other.gameObject);
 		}
-   
+
 }
