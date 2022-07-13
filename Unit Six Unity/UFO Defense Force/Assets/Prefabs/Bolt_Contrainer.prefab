@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4012723554794395572}
   - component: {fileID: 4012723554794395563}
+  - component: {fileID: 8848475842274481528}
   m_Layer: 0
   m_Name: Bolt_Contrainer
   m_TagString: Untagged
@@ -46,6 +47,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!114 &8848475842274481528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012723554794395562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9102785b1c1050f49ade4bd5477a61e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBounds: 20
+  lowerBounds: -20
 --- !u!1001 &4012723556136617107
 PrefabInstance:
   m_ObjectHideFlags: 0

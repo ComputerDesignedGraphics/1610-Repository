@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float xRange = 30;
 
     public Transform blaster;
-
+ 
     public GameObject lazerBolt;
     
 
