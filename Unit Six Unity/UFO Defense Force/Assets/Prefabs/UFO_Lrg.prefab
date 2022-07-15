@@ -1325,6 +1325,8 @@ GameObject:
   - component: {fileID: 7885826430261137641}
   - component: {fileID: 2439707713358844949}
   - component: {fileID: 6277770798715269356}
+  - component: {fileID: 3044415015060229266}
+  - component: {fileID: 6218260084156336431}
   m_Layer: 0
   m_Name: UFO_Lrg
   m_TagString: Untagged
@@ -1397,6 +1399,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBounds: 30
   lowerBounds: -20
+--- !u!135 &3044415015060229266
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7366699280589539923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.5
+  m_Center: {x: 0, y: 1.4, z: 0}
+--- !u!54 &6218260084156336431
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7366699280589539923}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &7946486611904551646
 GameObject:
   m_ObjectHideFlags: 0
