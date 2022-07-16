@@ -1327,6 +1327,7 @@ GameObject:
   - component: {fileID: 6277770798715269356}
   - component: {fileID: 3044415015060229266}
   - component: {fileID: 6218260084156336431}
+  - component: {fileID: -3283614472965209184}
   m_Layer: 0
   m_Name: UFO_Lrg
   m_TagString: Untagged
@@ -1428,6 +1429,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &-3283614472965209184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7366699280589539923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521068e3505e92646851bc7ac43e4bbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7946486611904551646
 GameObject:
   m_ObjectHideFlags: 0
