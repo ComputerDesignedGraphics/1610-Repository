@@ -68,6 +68,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3592300407949393000}
     m_Modifications:
+    - target: {fileID: 5150170743721134402, guid: 7e33eaf7152df914da7d5e9307dbc4ad, type: 3}
+      propertyPath: m_Radius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150170743721134402, guid: 7e33eaf7152df914da7d5e9307dbc4ad, type: 3}
+      propertyPath: m_Direction
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5150170743721134403, guid: 7e33eaf7152df914da7d5e9307dbc4ad, type: 3}
       propertyPath: m_Name
       value: LazerBolt
