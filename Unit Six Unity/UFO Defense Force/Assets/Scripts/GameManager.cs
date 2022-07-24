@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        gameOverText = GameObject.Find("GameOverText");
+        gameOverText = GameObject.Find("gameOverText");
+
     }
     // Update is called once per frame
 
@@ -34,6 +35,6 @@ public class GameManager : MonoBehaviour
         {
             gameOverText.gameObject.SetActive(true);
             Time.timeScale = 0;
-    }
+    	}
 }
     
