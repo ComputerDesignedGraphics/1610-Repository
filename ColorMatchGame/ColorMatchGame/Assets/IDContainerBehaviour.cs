@@ -8,6 +8,6 @@ public class IDContainerBehaviour : MonoBehaviour
 
 	public void Start()
 	{
-	startEvent.invoke();
+	startEvent.Invoke();
 	}
 }
