@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 [CreateAssetMenu]
 public class FloatData : ScriptableObject
