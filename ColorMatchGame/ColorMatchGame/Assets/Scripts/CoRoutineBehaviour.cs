@@ -13,6 +13,8 @@ public class CoRoutineBehaviour : MonoBehaviour
 
 	private void Start()
 	{
+		wfsObj = new WaitForSeconds(seconds);
+		wffoObj = new WaitForFixedUpdate();
 		startEvent.Invoke();
 	}
 
@@ -27,8 +29,7 @@ public class CoRoutineBehaviour : MonoBehaviour
     {
 
 		
-		wfsObj = new WaitForSeconds(seconds);
-		wffoObj = new WaitForFixedUpdate();
+		
 		
 		startCountEvent.Invoke();
 			yield return wfsObj;
