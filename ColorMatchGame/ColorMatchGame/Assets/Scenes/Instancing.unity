@@ -197,7 +197,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 0794811191c9b5e49b9a2b1353aeec5d, type: 2}
         m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
-        m_MethodName: CreateInstanceCounting
+        m_MethodName: CreateInstanceRandomly
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 2e561221e25312a4088da3a55376ff53, type: 2}
