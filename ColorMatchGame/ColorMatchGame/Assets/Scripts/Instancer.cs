@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu]
 public class Instancer : ScriptableObject
-{	
+{
 	public GameObject prefab;
+	private int num;
     public void CreateInstance()
    {
        Instantiate(prefab);
@@ -13,7 +14,25 @@ public class Instancer : ScriptableObject
 	{
 		Instantiate(prefab, obj.value, Quaternion.identity);
  	}
+	public void CreateInstance(Vector3DataList obj)
+	{
+		for (var i = 0; i < obj.vector3DList.Count; i++)
+		{
+			Instantiate(prefab, obj.vector3DList[i].value, Quaternion.identity);	
+		}
+		
+	}
 	
+	public void CreateInstanceCounting(Vector3DataList obj)
+	{
+	
+		Instantiate(prefab, obj.vector3DList[num].value, Quaternion.identity);
+		num++;
+		if (num == obj.vector3DList.Count)
+		{
+			num = 0;
+		}
+	}
 }
 	
 
