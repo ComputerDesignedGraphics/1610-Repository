@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 8763068727446128040}
   - component: {fileID: 8790155355662443681}
   - component: {fileID: 6531654193469286808}
-  - component: {fileID: 7183972184310647960}
   - component: {fileID: -7760340405227856247}
+  - component: {fileID: 7183972184310647960}
   - component: {fileID: 5401015476612361546}
   - component: {fileID: 8700290666031913611}
+  - component: {fileID: 8438085710235932832}
   m_Layer: 0
   m_Name: PureRing
   m_TagString: Untagged
@@ -97,11 +98,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4657015562918385337}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.08, y: 3.08, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7760340405227856247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657015562918385337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02eb80c6b6fd4549a450d91a2d6f35d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 7
 --- !u!54 &7183972184310647960
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -118,19 +132,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-7760340405227856247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4657015562918385337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d02eb80c6b6fd4549a450d91a2d6f35d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seconds: 10
 --- !u!114 &5401015476612361546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,8 +164,8 @@ MonoBehaviour:
         m_MethodName: ChangeRendererColor
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 7e96a220a166a5d47b7a976535206d46, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_ObjectArgument: {fileID: 11400000, guid: 993e7a5c86001d84ab6917a6f7b0a133, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorIDDataList, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -176,3 +177,20 @@ MonoBehaviour:
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8438085710235932832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657015562918385337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea1db4428437f241b5758cf7594473b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 11400000, guid: 80a547477ec2a8645bb1e0510aeac49b, type: 2}
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  ColorIDDataListObj: {fileID: 11400000, guid: 993e7a5c86001d84ab6917a6f7b0a133, type: 2}
