@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5401015476612361546}
   - component: {fileID: 8700290666031913611}
   - component: {fileID: -3663466436307333018}
+  - component: {fileID: -2107457274174584492}
   m_Layer: 6
   m_Name: Dot
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4657015562918385337}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d02eb80c6b6fd4549a450d91a2d6f35d, type: 3}
   m_Name: 
@@ -127,7 +128,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 3
   m_AngularDrag: 0.5
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -195,7 +196,43 @@ MonoBehaviour:
       m_Calls: []
   matchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 981d0f4bda414984c9aba1d0f86967e8, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: c2c7fc41994a00241b9f62c3f89bbb6a, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: CompareValue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 981d0f4bda414984c9aba1d0f86967e8, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4657015562918385337}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   noMatchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -203,3 +240,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   colorIDDataListObj: {fileID: 11400000, guid: 993e7a5c86001d84ab6917a6f7b0a133, type: 2}
+--- !u!114 &-2107457274174584492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657015562918385337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cbb784eea5e6ee459ed94baaf28005d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draggable: 1
+  position: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
+  startDragEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endDragEvent:
+    m_PersistentCalls:
+      m_Calls: []
